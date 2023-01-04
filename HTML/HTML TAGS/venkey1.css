@@ -1,0 +1,49 @@
+body{
+    background: repeating-linear-gradient(45deg,pink,green,yellow);
+}
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o,#p,#q{
+    background: repeating-linear-gradient(45deg,yellow,green,red);
+    color: white;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 8px;
+    outline: 3px double red;
+    border-radius: 20px;
+}
+#b{
+    margin-left: 52%;
+}
+#c{
+    margin-left: 35px;
+}
+#d{
+    margin-left: 43%;
+}
+#e{
+    margin-left: 75px;
+}
+#f{
+    margin-left: 36%;
+}
+#g{
+    margin-left: 94px;
+}
+#h{
+    margin-left: 31%;
+}
+#m{
+    margin-left: 118px;
+}
+#n{
+    margin-left: 26%;
+}
+#o{
+    margin-left: 152px;
+}
+#p{
+    margin-left: 19%;
+}
+#q{
+    margin-left: 31%;
+}

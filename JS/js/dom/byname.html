@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="ve" id="" value="femal">femal
+    <input type="radio" name="ve" id="" value="others">others
+
+    <button onclick="venkey()">button</button>
+
+    <script>
+        let tag=document.getElementsByName("ve")
+
+
+        let venkey=()=>{
+        tag.forEach(a=>{
+
+
+            if(a.checked){
+                console.log(a.value)//
+            }
+        })
+        
+        }
+
+    </script>
+</body>
+</html>

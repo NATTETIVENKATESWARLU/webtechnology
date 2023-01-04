@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter name" id="names">
+
+    <button onclick="venkey()" id="mass">submit</button>
+
+    <div id="display"></div>
+
+
+    <script>
+
+        let names=document.getElementById("names");
+        let mass=document.getElementById("mass");
+        let div=document.getElementById("display");
+
+        function venkey(){
+
+            let username=names.value;
+
+            div.textContent=username;
+        }
+    </script>
+</body>
+</html>

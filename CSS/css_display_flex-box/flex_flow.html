@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>felx_flow</title>
+    <style>
+            #main{
+                background-color: aquamarine;
+                padding: 10px;
+                margin: 10px;
+                display: flex;
+                /*flex-direction: column-reverse;
+                row,row-reverse,column-reverse*/
+                flex-flow: row-reverse wrap-reverse;
+            }
+            .child{
+                background-color: black;
+                color: white;
+                width: 50px;
+                height: 100px;
+                padding: 10px;
+                margin: 10px;
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+    <!--flex box-->
+    <div id="main">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+    </div>
+
+</body>
+</html>

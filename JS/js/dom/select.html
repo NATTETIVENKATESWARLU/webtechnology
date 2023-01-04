@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>happy new year </h1>
+    <h1>enjoy pandago </h1>
+    <section>
+        <h1>venkey mass</h1>
+    </section>
+    </div>
+    <button id="btn">button</button>
+
+
+    <script>
+        let tags=document.querySelectorAll("div>h1");
+        let btn=document.querySelector("#btn")
+
+        btn.addEventListener("click",()=>{
+            tags.forEach(a=>{
+                a.style.color="blue"
+            })
+        })
+
+    </script>
+</body>
+</html>

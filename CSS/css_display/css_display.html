@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css_display</title>
+    <style>
+        body{
+            margin: 30px;
+            font-size: 20px;
+            height: 1000px;
+        }
+        h2{
+            background-color: orange;
+            display: inline;
+            padding: 20px;
+            border: 2px solid blueviolet;
+        }
+        span{
+            background-color: aqua;
+            color: black;
+            padding: 20px;
+            margin: 15px;
+        }
+        /*div{
+            background-color: beige;
+            display: none;
+        }
+        div:hover{
+            background-color: black;
+            color: aquamarine;
+            display: inline;
+        }*/
+        .main{
+            background-color: palevioletred;
+            display:inline-flexbox
+            ;
+            width: auto;
+        }
+
+
+        .child{
+            background-color: yellowgreen;
+            color: maroon;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--inline css-->
+    <h2>venkey</h2>
+    <h2>venkey</h2>
+    <h2>venkey</h2>
+     <!--block css-->
+     <p>
+        <span>1.venkey mass mass venkey</span>
+        <span>2.venkey mass mass venkey</span>
+        <span>3.venkey mass mass venkey</span>
+        <span>4.venkey mass mass venkey</span>
+     </p>
+     <!--none-->
+     <div>
+        <h1>i amusing display value as none</h1>
+     </div>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ullam id nisi animi asperiores cum est dignissimos, explicabo provident dicta sit odio? Temporibus, asperiores laudantium rem, sunt distinctio saepe, cupiditate unde nesciunt vero consequatur atque eius iusto. Impedit, eius ex ullam enim totam molestias asperiores tempore quos harum architecto qui nesciunt aperiam illo deserunt sint aspernatur, neque laboriosam ea commodi fugit? Ex saepe eveniet possimus soluta illo commodi in, dicta itaque corrupti consectetur maiores ullam suscipit eaque, laborum perspiciatis voluptate. Error, dolorem! Perspiciatis odio beatae, inventore, voluptate natus, optio cum quibusdam harum deserunt exercitationem officiis. Assumenda voluptatum ea magnam ipsum?</p>
+      <!--inline block-->
+      <div class="main">
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum, culpa maxime quo nihil, impedit placeat delectus id eveniet aliquam magni voluptas deleniti vel excepturi voluptatum officiis molestiae et itaque.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum, culpa maxime quo nihil, impedit placeat delectus id eveniet aliquam magni voluptas deleniti vel excepturi voluptatum officiis molestiae et itaque.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum, culpa maxime quo nihil, impedit placeat delectus id eveniet aliquam magni voluptas deleniti vel excepturi voluptatum officiis molestiae et itaque.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nostrum, culpa maxime quo nihil, impedit placeat delectus id eveniet aliquam magni voluptas deleniti vel excepturi voluptatum officiis molestiae et itaque.</p>
+        </div>
+      </div>
+</body>
+</html>

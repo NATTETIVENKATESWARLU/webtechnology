@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*let result=new Promise(function(resolve,rejected){
+            let URL="https://jsonplaceholder.typicode.com/users"
+            fetch(URL).then(a=>console.log(a.json())).catch(ere=>{console.log(ere)})
+        })*/
+
+        async function mass(){
+            let URL="https://jsonplaceholder.typicode.com/users"
+            fetch(URL).then(a=>console.log(a.json())).catch(ere=>{console.log(ere)})
+        }
+
+        mass();
+    </script>
+</body>
+</html>

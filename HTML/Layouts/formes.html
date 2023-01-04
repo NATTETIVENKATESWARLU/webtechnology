@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>formes_tag</title>
+    <style>
+        div{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <!--USER_NAME:-->
+        <div>
+            <label for="USER">USER_NAME:</label>
+            <input type="text" placeholder="USER_NAME" id="USER">
+        </div>
+        <!--mobil_number:-->
+        <div>
+            <label for="mobil">mobil_number:</label>
+            <input type="number" placeholder="+91-10-digites" id="mobil">
+        </div>
+        <!--DATE_OF_BIRTH-->
+        <div>
+            <label for="dob">DATE_OF_BIRTH</label>:
+            <input type="date" placeholder="dd-mm-yyyy" id="dob">
+        </div>
+        <!--EMAI_ADDERS-->
+        <div>
+            <label for="emil">EMAI_ADDERS</label>
+            <input type="email" placeholder="enter-email adders" id="emil">
+        </div>
+        <!--pass_word-->
+        <div>
+            <label for="pass">EMAI_password</label>
+            <input type="password" placeholder="enter-email password" id="pass">
+        </div>
+        <!--checkbox-->
+         <div>
+            <label for="check">select-language</label>
+            <input type="checkbox" id="check">HTML
+            <input type="checkbox" id="check">css
+            <input type="checkbox" id="check">JS
+            <input type="checkbox" id="check">python
+            <input type="checkbox" id="check">java
+            <input type="checkbox" id="check">REACT
+         </div>
+         <!--select-gender-->
+         <div>
+            <label for="radios">select-gender</label>
+            <input type="radio" id="radios" name="gender">male
+            <input type="radio" id="radios" name="gender">female
+            <input type="radio" id="radios" name="gender">other
+         </div>
+         <!--resume:-->
+         <div>
+            <label for="files">resume:</label>
+            <input type="file" placeholder="select-your file" id="files">
+        </div>
+        <div>
+        <!--submit and reset-->
+        <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+</body>
+</html>

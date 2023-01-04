@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>background-colors</title>
+    <style>
+        body{
+            margin-bottom: 1000px;
+        }
+        h1{
+        background: linear-gradient(60deg,#293462,#1CD6CE,#FEDB39,#D61C4E);
+        text-align: center;
+        color: white;
+        height: 100px;
+        }
+        h2{
+            background: radial-gradient(#003865,#EF5B0C,#D4F6CC,#3CCF4E);
+            text-align: center;
+            color: black;
+            height: 200px;
+        }
+        h3{
+            background:repeating-conic-gradient(#F7EC09 15%,#3EC70B 20%,#A149FA 25%);
+            text-align: center;
+            color: black;
+            height: 500px;
+        }
+        #a{
+            background:-webkit-repeating-linear-gradient(#003865,#EF5B0C,#D4F6CC,#3CCF4E);
+            text-align: center;
+            color: black;
+            height: 500px;
+        }
+        #b{
+            background:-(#003865,#EF5B0C,#D4F6CC,#3CCF4E);
+            text-align: center;
+            color: black;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>
+        background-colors with linear gradient
+    </h1>
+    <h2>
+        background-colors with radial gradient
+    </h2>
+    <h3>
+        background-colors with conic gradient
+    </h3>
+    <p id="a">
+        venkeybackground-colors with conic gradient
+    </p>
+    <p id="b">
+        venkeybackground-colors with conic gradient
+    </p>
+</body>
+</html>

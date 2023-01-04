@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css_animations</title>
+    <style>
+        div{
+            background: repeating-linear-gradient(yellow 20%,red 40%);
+            width: 150px;
+            height: 100px;
+            margin: 200px 300px;
+            animation: anime;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+                }
+                @keyframes anime{
+                    from{
+                        /*transform: scale3d(11,11);*/
+                        
+                        transform: scale(1,1);
+                    }
+                    to{
+                        
+                       transform: scale(4,4);
+                    }
+                }
+    </style>
+</head>
+<body>
+    <div>
+        <span>v</span>
+        <span>e</span>
+        <span>n</span>
+        <span>k</span>
+        <span>e</span>
+        <span>y</span>
+    </div>
+</body>
+</html>
